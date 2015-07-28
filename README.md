@@ -1,4 +1,4 @@
-# vantage-repl
+# vantage-inspect
 
 Simple object inspect extension for vantage.js
 
