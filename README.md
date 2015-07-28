@@ -12,7 +12,7 @@ npm install vantage
 ##### Programmatic use
 
 ```js
-// index.js
+// app.js
 var Vantage = require('vantage')
   , inspect = require('vantage-inspect)
   ;
