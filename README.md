@@ -21,7 +21,7 @@ var vantage = Vantage();
 
 vantage
   .delimiter('node~$')
-  .use(inspect)
+  .use(inspect, {context:{app: koa, socketio: io}})
   .show();
 ```
 
@@ -58,6 +58,9 @@ node~$
 ```
 
 ##### What it does
+
+context adds the objects to be inspectable
+
 
 it adds a version group command, that all modules may use to add their version
 ```
