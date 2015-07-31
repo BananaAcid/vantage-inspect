@@ -2,6 +2,9 @@
 
 Simple object inspect extension for vantage.js
 
+##### Changes
+1.0.1 results are now shown in the remote vantage shell insance
+
 ##### Installation
 
 ```bash
@@ -68,7 +71,7 @@ node~$ version
 
   Commands:
 
-    version inspect     inspect version 1.0
+    version inspect     inspect version 1.0.1
 
 ```
 
