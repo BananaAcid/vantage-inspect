@@ -17,7 +17,7 @@ npm install vantage
 ```js
 // app.js
 var Vantage = require('vantage')
-  , inspect = require('vantage-inspect)
+  , inspect = require('vantage-inspect')
   ;
 
 var vantage = Vantage();
